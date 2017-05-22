@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media Queries</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+	<style type="text/css">
+
+
+
+
+
+
+
+
+
+		.imagenuno {
+			background-color: black;
+			width: 25%;
+			float: left;
+		}
+		.imagendos {
+			background-color: red;
+			float: left;
+			width: 25%;
+		}
+		.imagentres {
+			background-color: green;
+			float: left;
+			width: 50%;
+
+		}
+		.i1
+		{
+			width: 100%
+		}
+		.i2{
+			width :100%;
+		}
+		.i3{
+			width: 100%
+		}
+
+		@media (min-width: 600px) and (max-width: 768px)  {
+			.imagenuno {
+			background-color: pink;
+			width: 100%;
+			float:left;
+			}
+			.imagendos {
+				background-color: red;
+				float:left;
+				width: 100%;
+			}
+			.imagentres {
+				background-color: green;
+				float:left;
+				width: 100%;
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+
+<h1>HOLA!!</h1>
+<div class="imagenuno" >
+	
+		<img src="http://www.cariverplate.com.ar/imagenes/contenidos/2017-04/8468-logo.jpg">
+
+</div>
+<div class="imagendos">
+
+	 <img class="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5XugqcudgHk6OjZZaBzSBnodrt-LLoZqFywF0AOaMt4irgZt">
+
+</div>
+
+<div class="imagentres"> 
+
+	<img class="i3" src="http://www.ole.com.ar/river-plate/Gallardo-pone-ganaron-superclasico_OLEIMA20170522_0041_19.jpg">
+
+</div>
+
+</body>
+</html>
